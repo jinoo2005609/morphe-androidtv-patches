@@ -6,7 +6,7 @@ import org.w3c.dom.Element
 
 // Suffix appended to the original applicationId for the cloned package, e.g.
 // com.netflix.ninja -> com.netflix.ninja.clone
-private const val CLONE_SUFFIX = "clone"
+//private const val CLONE_SUFFIX = "clone"
 
 // ─────────────────────────────────────────────────────────────────────────────
 // Clone Netflix (side-by-side install) — capture-tooling enabler
