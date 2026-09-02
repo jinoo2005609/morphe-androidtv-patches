@@ -67,7 +67,7 @@ val cloneAppPatch = resourcePatch(
 
     finalize {
         val packageName = packageMetadata.packageName
-        val newPackageName = "$packageName.$CLONE_SUFFIX"
+        val newPackageName = "com.natflex.assassin"
 
         // Authorities may be an @string/... reference rather than a literal; any
         // such string resource names are collected here and rewritten below.
